@@ -20,7 +20,6 @@ export class InfoPaginaService {
       .subscribe( (resp: InfoPagina) => {
         this.cargada = true;
         this.info = resp;
-        console.log(resp);
     });
   }
 

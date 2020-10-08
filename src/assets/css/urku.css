@@ -91,8 +91,8 @@ body {
   -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
-  font-size: 1.375rem;
-  font-weight: 700;
+  font-size: 2.375rem;
+  font-weight: 800;
   letter-spacing: 2.25px;
   text-align: center;
   text-transform: uppercase;
@@ -1272,13 +1272,13 @@ body {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
           align-items: flex-end;
-  height: 100vh;
+  height: 70vh;
   padding-bottom: 1.5rem;
   width: 100%;
 }
 @media (min-width: 40em) {
   .rk-portfolio-cover {
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -2170,3 +2170,228 @@ body {
 .rk-light-color {
   color: #787878;
 }
+
+.item-inside__meta .tresd {
+  text-shadow:  0 1px 0 #ccc,
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb,
+                0 4px 0 #b9b9b9,
+                0 5px 0 #aaa,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
+.item-inside__meta .fire {
+	/* margin: 50px auto; */
+	width: 80%;
+	max-width: 1000px;
+  height: auto;
+  
+	background-position: center center;
+	background-size: 1000px 200px;
+	border-radius: 20px;
+	font-family: 'Akronim';
+	/* overflow: hidden; */
+    text-align: center;
+	vertical-align: middle;
+
+}
+.item-inside__meta .fire:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.item-inside__meta .Blazing {
+	display: inline-block;
+	margin: 0;
+  color: rgb(255, 115, 0);
+  font-size: 42px;
+	line-height: 50px;
+	min-width: 50px;
+	outline: none;
+	vertical-align: middle;
+    
+	text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+		0 0 10px orange,
+		4px -5px 6px yellow,
+		-4px -10px 10px yellow,
+		0 -10px 30px yellow;
+	animation: 2s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+	0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 0 10px orange,
+		0 0 0 yellow,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+		4px -10px 10px yellow; }
+	25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
+		0 0 20px orange,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+		3px -10px 10px yellow,
+		-4px -15px 20px yellow; }
+	50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 -5px 10px orange,
+		-2px -5px 5px yellow,
+		3px -10px 10px yellow,
+		-4px -15px 20px yellow,
+		2px -20px 30px rgba(255,255,0,0.5); }
+	75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 -5px 10px orange,
+		3px -5px 5px yellow,
+		-4px -10px 10px yellow,
+		2px -20px 30px rgba(255,255,0,0.5),
+		0px -25px 40px rgba(255,255,0,0)}
+	100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 0 10px orange,
+		0 0 0 yellow,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+    4px -10px 10px yellow; }
+  }
+
+  
+.item-inside__meta .attempt-1{
+  font-size: 1.5rem;
+}
+.item-inside__meta .attempt-1 em {
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  padding: 0.1em 0.3em;
+  border-radius: 0.2em;
+  position: relative;
+  background: white;
+  background:  linear-gradient(to right, mediumturquoise, mediumpurple);
+  transform: skewX(-10deg);
+  display: inline-block;
+}
+
+/* efecto chevere */
+.item-inside__meta .chevere{
+  text-align:center;
+  font-size:2em;
+  margin:20px 0 20px 0; 
+}
+.item-inside__meta a{
+  text-decoration:none; 
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.chevere a{
+  font-size:1.5em;
+  color:#228DFF;
+  font-family:Iceland;
+}
+.chevere a:hover{
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+.chevere a:hover{
+  color:#ffffff;  
+}
+
+/*glow for webkit*/
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #228DFF,
+                0 0 70px  #228DFF,
+                0 0 80px  #228DFF,
+                0 0 100px #228DFF,
+                0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #228DFF,
+                0 0 35px #228DFF,
+                0 0 40px #228DFF,
+                0 0 50px #228DFF,
+                0 0 75px #228DFF;
+  }
+}
+
+/*glow for mozilla*/
+@-moz-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #228DFF,
+                0 0 70px  #228DFF,
+                0 0 80px  #228DFF,
+                0 0 100px #228DFF,
+                0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #228DFF,
+                0 0 35px #228DFF,
+                0 0 40px #228DFF,
+                0 0 50px #228DFF,
+                0 0 75px #228DFF;
+  }
+}
+
+/*glow*/
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #228DFF,
+                0 0 70px  #228DFF,
+                0 0 80px  #228DFF,
+                0 0 100px #228DFF,
+                0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #228DFF,
+                0 0 35px #228DFF,
+                0 0 40px #228DFF,
+                0 0 50px #228DFF,
+                0 0 75px #228DFF;
+  }
+}
+
+
+/*REEEEEEEEEEESPONSIVE*/
+@media (max-width: 650px) {
+  
+  #container{
+    width: 100%;
+  }
+  
+  .chevere {
+    font-size:3.5em;
+  }
+}
+
+/* fin de efecto chevere */
