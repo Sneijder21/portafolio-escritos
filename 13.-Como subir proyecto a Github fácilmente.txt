@@ -1,0 +1,22 @@
+Como subir proyecto a Github facilmente
+	1.	Primer paso se debe crear un repositorio en mi cuenta github
+	2.	posicionarme con GITBASH en mi carpeta raiz del proyecto
+	3.	Inicializar repositorio git
+		git init
+		se inicializa el repositorio vacio
+		git status:
+			vemos los archivos que no han sido añadidos al
+			repositorio "color red".
+	4. git add -A
+		git add . (opcion primaria)
+		añade todos los archivos al repositorio local
+	5.git status
+		los archivos cambian de color a green.listo para subir 
+	6.git commit -m "version one"
+		se suben los archivos preparados al repositorio como 1ra version
+	
+	7. ahora para subir al repositorio remoto a github
+		-> git remote add origin "direcccion" https://github.com/Sneijder21/AjaxCrud
+		se agrega un nueva rama eso le entiendo
+		-> git push origin master
+		para subir al repositorio remoto
